@@ -1,0 +1,89 @@
+
+body {
+  font-family: sans-serif;
+  background-color: #dfe1e0;
+  color: #000000;
+}
+
+.title {
+  width: 30%;
+  height: auto;
+}
+
+#main {
+  /*position: relative;*/
+  width: 50%;
+  height: 50%;
+  padding-bottom: 20px;
+}
+
+.container-outer {
+  position: relative;
+  overflow: hidden;
+  z-index: -1;
+}
+
+.container-inner {
+  position: absolute;
+}
+
+#lyric {
+  position: fixed;
+  top: 30%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -100%);
+  color: white;
+  /*make bold and italicized? not the same font as blond*/
+}
+
+#barcode {
+  width: 20%;
+  height: auto;
+  padding-right: 5px;
+}
+
+#parental {
+  width: 17%;
+  height: auto;
+  padding-left: 5px;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 30%;
+  padding: 1px;
+}
+
+
+#foo {
+   position: fixed;
+   bottom: 0;
+   right: 0;
+   width: 2%;
+   height: auto;
+   padding: 10px;
+ }
+
+/* Make content area fill the entire browser window */
+html,
+.fullscreen {
+  display: flex;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+/* Center the content in the browser window */
+.container {
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+}
